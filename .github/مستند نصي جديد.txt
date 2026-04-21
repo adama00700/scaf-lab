@@ -1,5 +1,1 @@
-git init
-git add .
-git commit -m "Initial release v1.0.0"
-git remote add origin https://github.com/adama00700/scaf-lab
-git push -u origin main
+
