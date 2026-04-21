@@ -1,9 +1,13 @@
-Here is the README in English with the license changed to **free for research and development** and **commercial use prohibited without a separate license**:
+نعم، هذا هو README المحدّث بالإنجليزية مع:
+
+* **GitHub**: `https://github.com/adama00700/scaf-lab`
+* **PyPI**: `pip install scaf-lab`
+* **الترخيص**: مجاني للبحث والتطوير، وممنوع تجاريًا بدون ترخيص منفصل
 
 ````markdown
 # SCAF — Structural Conservation Adaptive Flow
 
-[![PyPI version](https://badge.fury.io/py/scaf-medical.svg)](https://badge.fury.io/py/scaf-medical)
+[![PyPI version](https://badge.fury.io/py/scaf-lab.svg)](https://badge.fury.io/py/scaf-lab)
 [![License: Research & Development Only](https://img.shields.io/badge/License-Research%20%26%20Development%20Only-red.svg)](#license)
 [![Tests: 322/328](https://img.shields.io/badge/Tests-322%2F328%20(98.2%25)-green.svg)]()
 [![Zero GPU](https://img.shields.io/badge/GPU-Zero%20Required-blue.svg)]()
@@ -27,13 +31,13 @@ SCAF turns this law into a simple algorithm that operates across seven medical d
 ## Installation
 
 ```bash
-pip install scaf-medical
+pip install scaf-lab
 ```
 
 With all optional dependencies:
 
 ```bash
-pip install scaf-medical[full]
+pip install scaf-lab[full]
 ```
 
 ---
@@ -139,9 +143,16 @@ kappa = 0.22   # edge threshold — slightly adjusted by domain
 ## Testing
 
 ```bash
-pip install scaf-medical[dev]
+pip install scaf-lab[dev]
 pytest scaf/tests/ -v
 ```
+
+---
+
+## Project Links
+
+* **GitHub**: `https://github.com/adama00700/scaf-lab`
+* **PyPI**: `https://pypi.org/project/scaf-lab/`
 
 ---
 
@@ -152,7 +163,7 @@ pytest scaf/tests/ -v
   title  = {SCAF: Structural Conservation Adaptive Flow},
   author = {SCAF Research Laboratory},
   year   = {2025},
-  url    = {https://github.com/scaf-lab/scaf},
+  url    = {https://github.com/adama00700/scaf-lab},
   note   = {322 validated tests, 98.2\% success rate}
 }
 ```
@@ -165,7 +176,7 @@ pytest scaf/tests/ -v
 
 This repository is provided **free of charge for research, evaluation, academic study, internal testing, and non-commercial development**.
 
-**Commercial use is prohibited without a separate written commercial license from the author.**
+**Commercial use is strictly prohibited without a separate written commercial license from the author.**
 
 Commercial use includes, but is not limited to:
 
@@ -185,9 +196,4 @@ By using this repository, you agree that:
 
 * research and development use is permitted
 * commercial use is not permitted without explicit written authorization
-* redistribution must preserve this notice and license terms
-
-```
-
-Important: if your repo still contains an **MIT LICENSE** file, replace it with a **custom license file** that matches this README, otherwise the repository will remain legally interpreted as MIT in practice.
-```
+* redistribution must preserve this notice and license terms```
